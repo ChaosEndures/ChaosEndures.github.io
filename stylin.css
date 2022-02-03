@@ -3,14 +3,25 @@
     src: url(COMIC.TTF);
 }
 
-body{
-    margin: auto;
-    align-items: center;
+body{   
     font-family: funnysans;
 }
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+img {
+    width: 20%; 
+    height: 20%; 
+    padding: 10px;
+}
+
 .flex-main{
     flex-direction: column;
-    position: absolute;
+    
 }
 
 .flex-images{
@@ -27,17 +38,4 @@ body{
 .flex-text-child{
     flex-direction: column;
     padding: 40px;
-}
-
-div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-
-img {
-    width: 20%; 
-    height: 20%; 
-    padding: 10px;
 }
